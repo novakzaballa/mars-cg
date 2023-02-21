@@ -1,15 +1,10 @@
-import React from "react"
-import styles from "./Header.module.css"
 import { Logo, CampGladiator } from '../../images';
+import { Box } from "@mui/material";
+import { styles } from './styles'
 
-type HeaderProps = {
-    pageName: String;
-}
-
-export const Header = ({ pageName}: HeaderProps) => (
-    <div className={styles.header}>
-        <img src={Logo} alt="Logo" className={styles.logo} />
+export const Header = () => (
+    <Box sx= {styles.box}>
+        <img src={Logo} alt="Logo" />
         <img src={CampGladiator} alt= "CampGladiator" />
-        {pageName}
-    </div>
+    </Box>
 );

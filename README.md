@@ -1,6 +1,17 @@
-# Getting Started with Create React App
+# Camp Gladiator Mars Workouts
+This is a code for CampGladiator take-home test called MarsCG.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Some assumptions were made including the following:
+- The data is complete or is a representative sample, meaning that it contains all the different shapes and range of values of the real data, for example, it contains all the impact types, and level types.
+
+ToDo:
+- Due to the restricted time and resources available for this developer. The app will not be published in a CDN to be accesible from anyware. Instead the following link is provided explaining how to do it https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/deploy-a-react-based-single-page-application-to-amazon-s3-and-cloudfront.html.
+- Due to the time limitation, no KPI were added to the Dashboard, however some of them could include:
+  - Total user workouts time.
+  - Total user calories burned out.
+  - User progress per level.
+
+Follow the instructions below to run the app.
 
 ## Available Scripts
 
@@ -28,19 +39,3 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
