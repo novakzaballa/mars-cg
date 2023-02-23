@@ -3,6 +3,7 @@ This is a code for CampGladiator take-home test called MarsCG.
 
 Some assumptions were made including the following:
 - The data is complete or is a representative sample, meaning that it contains all the different shapes and range of values of the real data, for example, it contains all the impact types, and level types.
+- The branding, including color and typography has been determine by the developer, prioritizing use of defaults because of the time restriction.
 
 ToDo:
 - Due to the restricted time and resources available for this developer. The app will not be published in a CDN to be accesible from anyware. Instead the following link is provided explaining how to do it https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/deploy-a-react-based-single-page-application-to-amazon-s3-and-cloudfront.html.
@@ -10,10 +11,18 @@ ToDo:
   - Total user workouts time.
   - Total user calories burned out.
   - User progress per level.
+- Probably allow users to mark some of the workouts as favorites could be a good feature, however that depends on wether they revisit workouts frequently.
+- Most of this and features should be improved or developed depending on usage data. Because of that something missing is a way to track the features usage, like Amplitude, Datadog, Hotjar, or another similar tool.
 
 Follow the instructions below to run the app.
+## Install dependencies
+
+Once you have cloned/downloaded this code, please install dependencies executing the following command in the command line from the project root directory:
+`npm i`
+
 
 ## Available Scripts
+
 
 In the project directory, you can run:
 
